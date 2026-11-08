@@ -1,0 +1,19 @@
+[project]
+name = "teams_excel_notify"
+authors = [
+    { name = "ERC IT", email = "it@example.com" }
+]
+description = "Posts a Microsoft Teams message when someone changes a department's Excel file"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    # frappe is installed and managed by bench.
+    # openpyxl and requests already come with Frappe v14, so nothing else is needed.
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench.dev-dependencies]
