@@ -1,6 +1,6 @@
 """Turn an .xlsx / .xlsm file into a snapshot of cell values (plain strings).
 
-No Frappe imports: only openpyxl, which Frappe v15 already ships with.
+No Frappe imports: only openpyxl, which Frappe v16 already ships with.
 """
 
 from __future__ import annotations

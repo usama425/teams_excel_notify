@@ -1,11 +1,11 @@
 ## Teams Excel Notify
 
-A Frappe v15 app that watches department Excel files in Microsoft 365 and posts a
+A Frappe v16 app that watches department Excel files in Microsoft 365 and posts a
 message to each department's Teams channel when someone changes them: who edited,
 when, and exactly which cells changed (old → new), rows added, removed or moved.
 
 It only reads data from Microsoft 365 (application permission `Files.Read.All`) and
-does not touch ERPNext data. It runs on any Frappe v15 site, including Frappe Cloud.
+does not touch ERPNext data. It runs on any Frappe v16 site, including Frappe Cloud.
 
 ### How it works
 
